@@ -1,0 +1,15 @@
+# Python environment requirements
+# Install with: python -m venv myenv && source myenv/bin/activate && pip install -r requirements.txt
+
+# Core packages
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+fastmcp==1.0.0  # Added fastmcp package
+
+# Optional: for web scraping and data processing
+pandas==2.2.1
+numpy==1.26.4
+
+# Optional: for API development
+flask==2.3.3
